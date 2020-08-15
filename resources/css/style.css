@@ -3,5 +3,61 @@
 /* =============== */
 
 body {
-    font-family: 'Oxygen', sans-serif;
+    font-family: "Oxygen", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.topbarsection {
+    display: flex;
+    /* height: 90px; */
+    margin: 20px 0;
+}
+
+.logo {
+    width: 50%;
+    text-align: center;
+}
+
+.social-icon {
+    width: 50%;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #252525;
+    display: flex;
+}
+.navbar-left {
+    width: 50%;
+    margin-left: 260px;
+}
+.navbar-right {
+    width: 40%;
+    margin-left: 20%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #252525; */
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    /* text-align: center; */
+    padding: 25px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    border-bottom:5px solid #cec7c1;
 }
