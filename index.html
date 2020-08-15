@@ -11,6 +11,8 @@
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/768c54ad6f.js" crossorigin="anonymous"></script>
     <!-- RESOURCES FILES -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/reponsive.css">
 </head>
@@ -45,12 +47,12 @@
         </div>
     </section>
     <!-- PRODUCT NAV -->
-    <div class="container">
+    <div class="my-container">
         <small>Store / Single product</small>
         <hr class="line">
     </div>
     <!-- SINGLE PRODUCT -->
-    <section id="single-product" class="container">
+    <section id="single-product" class="my-container">
         <h1 style="font-size: 40px;">Single Product</h1>
         <div class="product">
             <div class="left-img">
@@ -98,7 +100,7 @@
                 </div>
                 <div class="btn">
                     <button class="cart-button"><i class="fas fa-cart-plus"></i>Add to Cart</button>
-                    <div  class="wishlist">
+                    <div class="wishlist">
                         <h4><i class="far fa-heart"></i>Add to wishlist</h4>
                     </div>
                 </div>
@@ -108,12 +110,126 @@
                 <p><b>Tags: </b>Tunks, Blog, Print, Book, Gift</p>
                 <div class="icon-box">
                     <!-- <div>Share:</div> -->
-                    <div class="icon"> <b>Share:</b><img style="padding-left: 8px;" src="resources/img/twitter.png" alt=""></i></div>
+                    <div class="icon"> <b>Share:</b><img style="padding-left: 8px;" src="resources/img/twitter.png"
+                            alt=""></i></div>
                     <div class="icon"><img src="resources/img/soc2.png" alt=""></i></div>
                     <div class="icon"><img src="resources/img/soc3.png" alt=""></i></div>
                     <!-- <div class="icon"><img src="resources/img/soc4.png" alt=""></i></div> -->
                     <div class="icon"><img src="resources/img/soc5.png" alt=""></i></div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <!-- INFO/REVIEW SECTION -->
+    <section id="info-review" class="my-container">
+        <div>
+            <a class="info-btn" href="">Information</a>
+            <a class="review-btn" href="">Reviews (2)</a>
+            <a class="lorem-btn" href="">Lorem ipsum</a>
+        </div>
+        <div class="user-review">
+            <div class="pro-pic">
+                <img src="resources/img/pro-pic1.png" alt="">
+            </div>
+            <div class="user-comment">
+                <div class="name-rate">
+                    <div class="name">
+                        <h3>Milana Frankone</h3>
+                    </div>
+                    <!-- <h3 class="fa fa-star checked"></h3> -->
+                    <div class="rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+
+                </div>
+                <p>Jul. 26, 2016 | 2:00 pm <i class="fas fa-reply"></i></p>
+                <p>Whatever drinking vinegar disrupt, echo park banjo skateboard four dollar toast flexitarian ethical 3
+                    wolf moon fap irony typewriter tacos. Swag cardigan beard, pabst plaid street art portland. </p>
+            </div>
+        </div>
+        <div class="user-review">
+            <div class="pro-pic">
+                <img src="resources/img/pro-pic1.png" alt="">
+            </div>
+            <div class="user-comment">
+                <div class="name-rate">
+                    <div class="name">
+                        <h3>John Doe</h3>
+                    </div>
+                    <!-- <h3 class="fa fa-star checked"></h3> -->
+                    <div class="rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+
+                </div>
+                <p>Jul. 26, 2016 | 2:00 pm <i class="fas fa-reply"></i></p>
+                <p>Fanny pack actually roof party, shabby chic fashion axe mustache yuccie chambray single-origin coffee
+                    semiotics etsy brunch put a bird on it. Microdosing next level dreamcatcher, ennui art party celiac
+                    brunch tilde craft beer flexitarian cronut 3 wolf moon etsy. Tote bag vinyl fixie keytar, jean
+                    shorts deep v cronut PBR&B vegan mustache lomo. </p>
+            </div>
+        </div>
+        <h3>Leave your review:</h3>
+        <small>Rate product:</small>
+        <br>
+        <div style="margin: 8px 0;">
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+    </section>
+    <!-- FORM -->
+    <form class="my-container">
+        <div class="my-form">
+            <div class="form-name">
+                <input type="text" name="id" maxlength="30" value="" placeholder="Name" />
+            </div>
+            <div class="form-email">
+                <input type="text" name="pw" maxlength="30" value="" placeholder="E-mail" />
+            </div>
+        </div>
+        <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="Message">
+            Message
+            </textarea>
+        <button type="submit" form="form1" value="Submit">Send</button>
+    </form>
+    <!-- RELATED PRODUCTS -->
+    <section id="related-products" class="my-container">
+        <h3>Related products</h3>
+        <div class="products">
+            <div>
+                <img src="resources/img/rlt-container.png" alt="">
+                <p>Steel thermos flask
+                    with leather holder</p>
+                <p>$60</p>
+            </div>
+            <div>
+                <img src="resources/img/rlt-container.png" alt="">
+                <p>Steel thermos flask
+                    with leather holder</p>
+                <p>$60</p>
+            </div>
+            <div>
+                <img src="resources/img/rlt-container.png" alt="">
+                <p>Steel thermos flask
+                    with leather holder</p>
+                <p>$60</p>
+            </div>
+            <div>
+                <img src="resources/img/rlt-container.png" alt="">
+                <p>Steel thermos flask
+                    with leather holder</p>
+                <p>$60</p>
             </div>
         </div>
     </section>
