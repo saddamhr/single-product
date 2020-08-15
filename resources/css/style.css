@@ -325,3 +325,15 @@ button {
     text-align: center; 
     margin-top: 10px;
 }
+
+.header-container {
+    background: #242424;
+    /* background: white; */
+    /* width: 100%; */
+    padding-top: 30px;
+    padding-bottom: 100px;
+    height: 500px;   
+}
+.get-in-touch {
+    color: white;
+}
