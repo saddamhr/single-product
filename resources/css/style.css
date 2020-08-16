@@ -287,6 +287,7 @@ button {
 
 ::-webkit-input-placeholder {
     color: #b2968d;
+    /* background: #b2968d; */
 }
 
 :-ms-input-placeholder {
@@ -328,12 +329,43 @@ button {
 
 .header-container {
     background: #242424;
-    /* background: white; */
-    /* width: 100%; */
-    padding-top: 30px;
-    padding-bottom: 100px;
-    height: 500px;   
+    padding-top: 40px;
+    width: 100%;
+    height: 450px;   
+}
+.header {
+    display: flex;
 }
 .get-in-touch {
     color: white;
+    text-align: left;
+    width: 30%;
+}
+
+.recent-user-review {
+    display: flex;
+    width: 100%;
+    margin-right: 180px;
+    /* margin-top: 25px; */
+    /* margin-bottom: 20px; */
+}
+
+.recent-pro-pic {
+    height: 50px;
+    width: 50px;
+    /* text-align: center; */
+    /* margin-top: 20px; */
+    /* margin-right: 200px; */
+}
+
+.recent-user-comment {
+    /* width:2100px; */
+    margin-left: 50px;
+    margin-top: -10px;
+    /* margin-right: 50px; */
+    text-align: left;
+}
+
+list-style {
+    color: red;
 }
