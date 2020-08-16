@@ -136,6 +136,7 @@ h2 {
 .prev {
     height: 100px;
     width: 85px;
+    margin-left: 10px;
 }
 .info-btn {
     text-decoration: none;
@@ -183,7 +184,8 @@ h2 {
 .rating {
     margin-top: 20px;
     align-content: flex-end;
-    margin-left: 300px;
+    /* margin-left: 300px; */
+    margin-left: 250px;
 }
 .my-form {
     display: flex;
