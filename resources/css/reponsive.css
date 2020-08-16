@@ -1,0 +1,37 @@
+@media (max-width: 500px) {
+    .top-bar-section {
+        display: flex;
+        margin: 10px 20px;
+    }
+    
+    .logo {
+        width: 50%;
+        text-align: left;
+    }
+    
+    .social-icon {
+        width: 50%;
+        text-align: end;
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar {
+        display: flex;
+        /* justify-content: space-between; */
+    }
+    .navbar-left {
+        width: 50%;
+        /* margin-left: 160px; */
+        /* margin-left: 260px; */
+    }
+    .navbar-right {
+        /* display: flex; */
+        /* justify-content: end; */
+        /* width: 40%; */
+        /* width: 38%; */
+        /* margin-left: 140px; */
+        /* margin-left: 5%; */
+        /* color: white; */
+    }
+}

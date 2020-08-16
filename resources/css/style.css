@@ -8,26 +8,30 @@ body {
     padding: 0;
 }
 
-.topbarsection {
+.top-bar-section {
     display: flex;
     /* height: 90px; */
     margin: 20px 0;
+    margin-left: 280px;
+    /* margin-top: 50px; */
+    /* margin-bottom: 50px; */
+    margin-right: 100px;
 }
 
 .logo {
     width: 50%;
-    text-align: center;
+    text-align: left;
 }
 
 .social-icon {
     width: 50%;
-    text-align: center;
+    text-align: start;
 }
 
 .navbar {
     background-color: #252525;
     display: flex;
-    /* height: 70px; */
+    justify-content: space-between;
 }
 .navbar-left {
     /* width: 50%; */
@@ -36,34 +40,37 @@ body {
     /* margin-left: 260px; */
 }
 .navbar-right {
+    display: flex;
+    /* justify-content: end; */
     /* width: 40%; */
-    width: 38%;
-    /* margin-left: 18%; */
+    /* width: 38%; */
+    margin-left: 140px;
     /* margin-left: 5%; */
+    color: white;
 }
 
-ul {
+/* ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /* background-color: #252525; */
-}
+    background-color: #252525;
+} */
 
-li {
+/* li {
     float: left;
-}
+} */
 
-li a {
+/* li a {
     display: block;
     color: white;
-    /* text-align: center; */
+    text-align: center;
     padding: 25px 16px;
     text-decoration: none;
-}
+} */
 
 li a:hover {
-    border-bottom: 5px solid #cec7c1;
+    border-bottom: 1px solid #cec7c1;
 }
 
 .my-container {
